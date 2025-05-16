@@ -5,6 +5,7 @@ import matplotlib.gridspec as gridspec
 
 # Set up flexible layout: 3 rows x 2 columns
 fig = plt.figure(figsize=(12, 12))
+fig.suptitle('All in One', fontsize=12)
 gs = gridspec.GridSpec(3, 2, figure=fig)
 
 # --- Plot 1: y = x^3 ---
