@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-here some unnecessary documentation :)
+matrix multiplication
 """
 import numpy as np
 
